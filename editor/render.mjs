@@ -20,7 +20,7 @@ if (id === "Miniatura") {
     composition,
     serveUrl,
     codec: "h264",
-    crf: 20,
+    crf: 23,
     audioBitrate: "192k",
     outputLocation: salida,
     inputProps,

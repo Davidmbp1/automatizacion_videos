@@ -147,8 +147,8 @@ def obtener_visual(fuente: str, consulta: str, vertical: bool, usados: set) -> d
     """Devuelve {"ruta", "credito"} o None si no se encontró nada."""
     stock = lambda q: _pexels(q, vertical, usados) or _pixabay(q, vertical, usados)
     if fuente == "archivo":
-        orden = [lambda: _wikimedia(consulta, usados), lambda: _pixabay_foto(consulta, vertical, usados),
-                 lambda: stock(consulta)]
+        # personas y lugares reales: solo Wikimedia; si falla, un clip genérico (nunca una foto equivocada)
+        orden = [lambda: _wikimedia(consulta, usados), lambda: stock(consulta), lambda: stock(_simplificar(consulta))]
     else:
         orden = [lambda: stock(consulta), lambda: stock(_simplificar(consulta)),
                  lambda: _pixabay_foto(consulta, vertical, usados)]
