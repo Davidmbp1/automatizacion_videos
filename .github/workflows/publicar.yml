@@ -1,0 +1,98 @@
+name: Producir video
+
+on:
+  schedule:
+    # Todos los días a las 11:23 UTC. Produce el siguiente tema y lo programa en YouTube
+    # para el día siguiente a la hora de config.json.
+    - cron: "23 11 * * *"
+  workflow_dispatch:
+    inputs:
+      guion:
+        description: "Ruta de un guion concreto (vacío = siguiente tema de temas.txt)"
+        type: string
+        default: ""
+      subir:
+        description: "Subir a YouTube"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: producir
+  cancel-in-progress: false
+
+jobs:
+  producir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+      YT_TOKEN_JSON: ${{ secrets.YT_TOKEN_JSON }}
+      HF_HUB_DISABLE_TELEMETRY: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: editor/package-lock.json
+
+      - name: Modelos en caché (voz y Whisper)
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache/modelos
+            ~/.cache/huggingface
+          key: modelos-v1
+
+      - name: Instalar FFmpeg y librerías del navegador
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 \
+            libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 \
+            libpango-1.0-0 libcairo2 libcups2
+
+      - name: Instalar dependencias
+        run: |
+          pip install -r requirements.txt
+          if grep -q '"motor": "chatterbox"' config.json; then
+            pip install -r requirements-chatterbox.txt --extra-index-url https://download.pytorch.org/whl/cpu
+          fi
+          cd editor && npm ci && npx remotion browser ensure
+
+      - name: Producir
+        run: |
+          if [ -n "${{ inputs.guion }}" ]; then
+            python main.py render "${{ inputs.guion }}"
+          elif [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.subir }}" = "true" ]; then
+            python main.py auto
+          else
+            python main.py auto --sin-subir
+          fi
+
+      - name: Guardar progreso (estado, guiones y temas)
+        if: always()
+        run: |
+          git config user.name "canal-bot"
+          git config user.email "canal-bot@users.noreply.github.com"
+          git add estado.json guiones temas.txt 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Progreso del canal $(date -u +%F)" && git push)
+
+      - name: Video para revisar (se guarda 7 días)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-${{ github.run_number }}
+          path: salida/
+          retention-days: 7
+          if-no-files-found: ignore

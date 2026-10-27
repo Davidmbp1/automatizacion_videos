@@ -1,0 +1,591 @@
+{
+  "tema": "El hackeo de Twitter de 2020: un chico de 17 años de Florida que tomó las cuentas de Obama, Musk y Apple con una llamada telefónica",
+  "titulo": "The 17-Year-Old Who Hacked Twitter With a Phone Call",
+  "descripcion": "On July 15, 2020, the Twitter accounts of Barack Obama, Elon Musk, Joe Biden, Bill Gates and Apple all started posting the same bitcoin scam at the same time. Within hours, more than one hundred thousand dollars had been sent to the scammers. The mastermind was not a foreign intelligence agency. It was a 17-year-old in Tampa, Florida, and his main weapon was a telephone.\n\nThis is the story of how a handful of young hackers talked their way inside one of the most powerful companies on the internet, what investigators found when they followed the money, and the uncomfortable lesson it left for every company and every one of us.\n\n#truecrime #cybersecurity #twitterhack",
+  "etiquetas": [
+    "twitter hack 2020",
+    "graham ivan clark",
+    "twitter bitcoin scam",
+    "social engineering",
+    "spear phishing",
+    "hacker documentary",
+    "cybersecurity story",
+    "elon musk hacked",
+    "obama twitter hacked",
+    "true crime",
+    "tech documentary",
+    "business stories",
+    "plugwalkjoe"
+  ],
+  "miniatura": {
+    "texto": "HE HACKED *TWITTER*",
+    "etiqueta": "AGE 17",
+    "fuente": "archivo",
+    "busqueda": "Twitter headquarters San Francisco"
+  },
+  "fuentes": [
+    "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202010141",
+    "https://www.cbsnews.com/sanfrancisco/news/report-finds-teens-hacked-twitter-by-exploiting-weaknesses-recommends-federal-oversight",
+    "https://www.cbsnews.com/sanfrancisco/news/teen-sentenced-to-3-years-in-prison-for-hacking-celebrity-twitter-accounts/",
+    "https://www.securityweek.com/british-twitter-hacker-sentenced-to-prison-in-us/",
+    "https://thehackernews.com/2023/06/twitter-hacker-sentenced-to-5-years-in.html"
+  ],
+  "resumen_es": "Documental sobre el hackeo de Twitter del 15 de julio de 2020. Un grupo de jóvenes, liderado por Graham Ivan Clark, de 17 años, engañó por teléfono a empleados de Twitter haciéndose pasar por soporte técnico, entró a la herramienta interna de administración y publicó una estafa de bitcoin desde las cuentas de Obama, Musk, Biden, Gates y Apple, recaudando más de 118 mil dólares. Se cuenta la investigación, las detenciones, las condenas (3 años para Clark, 5 para Joseph O'Connor) y el informe del regulador de Nueva York, que encontró que Twitter no tenía jefe de seguridad. Cierra con la lección: el eslabón más débil de la seguridad son las personas.",
+  "escenas": [
+    {
+      "narracion": "At around four in the afternoon, on July fifteenth, twenty twenty, Elon Musk's Twitter account posted something strange.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "phone screen social media",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "JULY 15, 2020"
+    },
+    {
+      "narracion": "It promised that any bitcoin sent to a certain address would be sent back, doubled. A few minutes later, Bill Gates's account posted almost the same message.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "bitcoin coins closeup",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Then Jeff Bezos. Then Barack Obama. Then Joe Biden, Kanye West, Kim Kardashian, and the official accounts of Apple and Uber.",
+      "tipo": "foto",
+      "fuente": "archivo",
+      "busqueda": "Barack Obama official portrait",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Some of the most powerful accounts on the planet were all running the same scam, at the same time. And nobody at Twitter could stop it.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "office people looking at screens",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "In the hours that followed, people around the world sent the scammers more than one hundred eighteen thousand dollars in bitcoin.",
+      "tipo": "dato",
+      "fuente": "stock",
+      "busqueda": "bitcoin price chart",
+      "texto": "$118,000",
+      "subtexto": "sent to the scammers in bitcoin",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Most people assumed it had to be a foreign government, or an elite team of professional criminals. The truth turned out to be much stranger.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "dark city night aerial",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "The man behind the biggest security breach in Twitter's history was not a man at all. He was a seventeen-year-old from Tampa, Florida.",
+      "tipo": "dato",
+      "fuente": "stock",
+      "busqueda": "teenager computer dark room",
+      "texto": "17",
+      "subtexto": "years old",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "And he didn't break in with sophisticated code. He used something far more powerful. A phone call.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "smartphone ringing night",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "This is the story of how a group of young hackers talked their way into one of the most important companies on the internet, and why it worked.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "hacker typing keyboard",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Case file. The Twitter heist.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "vintage typewriter dark",
+      "texto": "The Twitter Heist",
+      "subtexto": "Case File",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "To understand how this happened, we have to go back a few months, to the spring of twenty twenty.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "empty city street lockdown",
+      "texto": "The Weak Spot",
+      "subtexto": "Chapter 1",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "The pandemic had just sent millions of office workers home. Twitter was one of the companies that moved almost its entire staff to remote work.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "working from home laptop",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Suddenly, employees were logging into company systems from their kitchens and living rooms, through a virtual private network, or VPN.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "laptop login screen",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "And when that connection failed, they called the IT help desk. Calls from tech support became completely normal.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "help desk headset",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Inside Twitter, a small number of employees had access to a powerful internal tool. It could change the email address linked to almost any account, reset its security settings, and hand over control.",
+      "tipo": "foto",
+      "fuente": "archivo",
+      "busqueda": "Twitter headquarters San Francisco",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "TWITTER HQ · SAN FRANCISCO"
+    },
+    {
+      "narracion": "That tool was the master key to the platform. And according to a later investigation by New York regulators, the company protecting it had a serious gap at the top.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "server room lights",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Since December of twenty nineteen, Twitter had not had a chief information security officer. The person whose job was to lead the defense simply wasn't there.",
+      "tipo": "dato",
+      "fuente": "stock",
+      "busqueda": "empty office chair",
+      "texto": "7 months",
+      "subtexto": "without a chief security officer",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Meanwhile, in a corner of the internet most people never see, a very different community was paying attention.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "code on screen dark",
+      "texto": "The Username Market",
+      "subtexto": "Chapter 2",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "There are online forums where people buy and sell rare social media usernames. Short handles, like a single letter or a single number, can sell for thousands of dollars.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "online forum computer screen",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Some of the people in that world had learned that stealing those accounts was often easier than buying them. And the most effective method rarely involved code.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "hooded person laptop",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "It involved convincing a real human being to give you access. Security experts call it social engineering.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "two people talking phone",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Graham Ivan Clark knew that world well. And by the summer of twenty twenty, he had a plan that went far beyond stealing a few usernames.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "Tampa Florida skyline",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "TAMPA, FLORIDA"
+    },
+    {
+      "narracion": "So how do you trick a security-conscious tech company into letting you in? You call them.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "phone call dark",
+      "texto": "The Call",
+      "subtexto": "Chapter 3",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "According to the New York Department of Financial Services, the attackers phoned Twitter employees, pretending to be from the company's own IT help desk.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "man on phone call",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "They said they were responding to a problem with the VPN. It sounded routine. In the middle of the pandemic, that kind of call happened all the time.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "woman laptop phone home",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "The callers then sent employees to a website that looked exactly like Twitter's real VPN login page. But it was fake.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "typing password laptop",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "When an employee typed in their username and password, the hackers used them on the real site, at the same moment.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "hacker multiple screens",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "That triggered a two-factor security request on the employee's phone. And because they believed they were talking to their own IT team, some of them approved it.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "smartphone notification hand",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Twitter itself later described it in a single sentence.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "office building night",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "The social engineering that occurred on July fifteenth targeted a small number of employees through a phone spear phishing attack.",
+      "tipo": "cita",
+      "fuente": "stock",
+      "busqueda": "dark office computer",
+      "texto": "The social engineering that occurred on July 15, 2020, targeted a small number of employees through a phone spear phishing attack.",
+      "subtexto": "Twitter",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "With those credentials, the attackers eventually reached employees who had access to the internal tool. The master key was now in the hands of a teenager.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "key unlocking door",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "At first, they used it the way that community always had. According to federal prosecutors, access to valuable usernames was offered for sale.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "money cash counting",
+      "texto": "Going Too Far",
+      "subtexto": "Chapter 4",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Then they went bigger. Accounts of cryptocurrency companies started posting the bitcoin offer. And then came the most famous names on the platform.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "cryptocurrency trading screen",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "New York regulators found that the hackers logged into one hundred thirty accounts, and sent tweets from forty five of them.",
+      "tipo": "dato",
+      "fuente": "stock",
+      "busqueda": "social media icons screen",
+      "texto": "130",
+      "subtexto": "accounts accessed by the hackers",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Inside Twitter, engineers scrambled. With no quick way to know which accounts were compromised, the company took a drastic step.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "programmers working late night",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "For several hours, it blocked many verified accounts from tweeting at all. Presidents, celebrities and news organizations went silent.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "phone screen locked",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "That night, Twitter's chief executive, Jack Dorsey, posted a short message.",
+      "tipo": "foto",
+      "fuente": "archivo",
+      "busqueda": "Jack Dorsey",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Tough day for us at Twitter. We all feel terrible this happened.",
+      "tipo": "cita",
+      "fuente": "stock",
+      "busqueda": "night city lights window",
+      "texto": "Tough day for us at Twitter. We all feel terrible this happened.",
+      "subtexto": "Jack Dorsey, July 15, 2020",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "The hackers had pulled off something extraordinary. But they had made one critical mistake. They had stolen money in a way that leaves a permanent trail.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "detective investigation board",
+      "texto": "The Trail",
+      "subtexto": "Chapter 5",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Every bitcoin transaction is recorded on a public ledger, forever. Investigators followed the payments, and connected them to accounts, emails and devices.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "blockchain network digital",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Just sixteen days after the attack, on July thirty first, police arrested Graham Ivan Clark in Tampa. He faced thirty felony charges.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "police car lights night",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "JULY 31, 2020 · TAMPA"
+    },
+    {
+      "narracion": "The same day, federal prosecutors charged two other young men, Mason Sheppard in the United Kingdom, and Nima Fazeli in Orlando, Florida, for their alleged roles.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "courthouse exterior",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "A third, Joseph O'Connor, a British man known online as PlugWalkJoe, was arrested in Spain in twenty twenty one, and later extradited to the United States.",
+      "tipo": "foto",
+      "fuente": "archivo",
+      "busqueda": "Estepona Spain",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "ESTEPONA, SPAIN"
+    },
+    {
+      "narracion": "In March of twenty twenty one, Clark accepted a plea deal. Because he was a minor at the time, he was sentenced as a youthful offender.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "judge gavel courtroom",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Three years in a juvenile prison, followed by three years of probation. If he violates that probation, he faces a minimum of ten years in adult prison.",
+      "tipo": "dato",
+      "fuente": "stock",
+      "busqueda": "prison bars",
+      "texto": "3 years",
+      "subtexto": "in juvenile prison for the mastermind",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "O'Connor received a heavier sentence. In June of twenty twenty three, a federal judge in New York sentenced him to five years in prison, for the Twitter hack and other crimes.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "new york city courthouse",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": "JUNE 2023 · NEW YORK"
+    },
+    {
+      "narracion": "Months later, New York regulators published their report. Their conclusion was blunt. The hack succeeded because Twitter's security had not kept up with its importance.",
+      "tipo": "titulo",
+      "fuente": "stock",
+      "busqueda": "documents report desk",
+      "texto": "The Lesson",
+      "subtexto": "Chapter 6",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "They called for a dedicated regulator for the largest social media companies, arguing that platforms this powerful could no longer be treated like ordinary apps.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "government building columns",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "But the real lesson of this story is simpler, and it applies to all of us. The most sophisticated security system in the world can be undone by one convincing phone call.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "person alone phone window",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Nobody here exploited a brilliant software flaw. They exploited trust, routine, and the pressure of a strange moment in history.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "crowd people walking city",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "So if you ever get a call from tech support, your bank, or anyone asking you to approve a login, stop. Hang up, and call them back on a number you know is real.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "hand holding smartphone",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "And never approve a security prompt that you didn't start yourself. That single habit would have stopped this entire attack.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "two factor authentication phone",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "Now I want to hear from you. Has anyone ever tried to scam you with a call or a message that looked completely real? Tell me in the comments.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "person reading phone couch",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    },
+    {
+      "narracion": "If you like real cases of money, power and deception, subscribe to Ledger Noir. Every week, we open a new file.",
+      "tipo": "broll",
+      "fuente": "stock",
+      "busqueda": "city skyline sunset timelapse",
+      "texto": "",
+      "subtexto": "",
+      "etiqueta": ""
+    }
+  ],
+  "short": {
+    "titulo": "A 17-year-old hacked Obama and Elon Musk with a phone call #shorts",
+    "descripcion": "How a teenager took over some of the biggest Twitter accounts on Earth in 2020. #truecrime #cybersecurity #shorts",
+    "escenas": [
+      {
+        "narracion": "In twenty twenty, a seventeen-year-old took over the Twitter accounts of Barack Obama, Elon Musk and Apple.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "teenager phone dark room",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": "JULY 2020"
+      },
+      {
+        "narracion": "All of them posted the same bitcoin scam at the same time.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "bitcoin coins",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": ""
+      },
+      {
+        "narracion": "People sent the scammers more than one hundred eighteen thousand dollars.",
+        "tipo": "dato",
+        "fuente": "stock",
+        "busqueda": "money cash",
+        "texto": "$118,000",
+        "subtexto": "sent in bitcoin",
+        "etiqueta": ""
+      },
+      {
+        "narracion": "His weapon wasn't code. It was a phone call. He and his friends called Twitter employees pretending to be IT support.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "man phone call",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": ""
+      },
+      {
+        "narracion": "They sent them to a fake login page, and some employees approved the security prompt.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "smartphone notification",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": ""
+      },
+      {
+        "narracion": "That gave them a master key to almost any account on Twitter.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "key unlocking door",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": ""
+      },
+      {
+        "narracion": "He was arrested sixteen days later. The full story of how they did it is on the channel.",
+        "tipo": "broll",
+        "fuente": "stock",
+        "busqueda": "police lights night",
+        "texto": "",
+        "subtexto": "",
+        "etiqueta": ""
+      }
+    ]
+  }
+}

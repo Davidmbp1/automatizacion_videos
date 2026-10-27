@@ -1,0 +1,3 @@
+# Opcional: voz Chatterbox (clonación de voz). Requiere Python 3.10-3.11.
+chatterbox-tts==0.1.7
+setuptools<81

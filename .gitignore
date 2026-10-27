@@ -1,0 +1,9 @@
+salida/
+.cache/
+secretos/
+__pycache__/
+*.pyc
+.env
+editor/node_modules/
+editor/public/trabajo/
+editor/public/sfx/

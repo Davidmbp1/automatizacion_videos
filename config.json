@@ -1,0 +1,45 @@
+{
+  "canal": {
+    "nombre": "Ledger Noir",
+    "nicho": "true crime de negocios: casos reales de fraude, estafas, hackeos, golpes y caídas corporativas, contados como expedientes de cine negro, con personajes, cronología, juicios y fuentes verificables. Nada de predicciones de crisis, miedo económico ni consejos de inversión",
+    "publico": "adultos de Estados Unidos, Reino Unido y Canadá de 25 a 54 años que disfrutan del true crime, los documentales y las historias de negocios",
+    "idioma": "en"
+  },
+  "voz": {
+    "motor": "kokoro",
+    "idioma": "en",
+    "kokoro_voz": "am_michael",
+    "kokoro_idioma": "en-us",
+    "velocidad": 1.0,
+    "chatterbox_referencia": "",
+    "chatterbox_expresividad": 0.5,
+    "edge_voz": "en-US-AndrewNeural"
+  },
+  "video": {
+    "ancho": 1920,
+    "alto": 1080,
+    "fps": 30,
+    "volumen_musica": 0.09,
+    "color_acento": "#F2B33D",
+    "subtitulos": true
+  },
+  "short": {
+    "activar": true,
+    "ancho": 1080,
+    "alto": 1920
+  },
+  "guion": {
+    "modelo": "claude-opus-5-5",
+    "esfuerzo": "high",
+    "palabras_video_largo": 1700
+  },
+  "youtube": {
+    "subir": true,
+    "privacidad": "private",
+    "programar": true,
+    "hora_publicacion": "14:00",
+    "zona_horaria": "America/New_York",
+    "categoria_id": "27",
+    "contenido_sintetico": false
+  }
+}
